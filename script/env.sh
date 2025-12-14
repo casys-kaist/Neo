@@ -1,0 +1,4 @@
+DATASET_PATH=/mnt/dataset
+MODEL_PATH=/mnt/model
+OUTPUT_PATH=/mnt/output
+CUDA_VISIBLE_DEVICES=2

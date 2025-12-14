@@ -1,0 +1,21 @@
+# python environment
+.venv
+
+# python cache
+__pycache__
+
+# build
+build
+third_party
+*.egg-info
+*.so
+
+# packages
+glm
+
+# custom ignore
+.vscode
+.ruff_cache
+temp
+test
+test.*

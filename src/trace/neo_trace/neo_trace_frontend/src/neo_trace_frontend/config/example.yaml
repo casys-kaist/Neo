@@ -1,0 +1,17 @@
+chunk_size: 256
+
+tile_size: 16
+
+subtile_size: 8
+
+resolution: HD
+
+frame:
+- 0
+- 1
+
+reuse_mode: true
+
+trace_mode: true
+
+image_mode: false

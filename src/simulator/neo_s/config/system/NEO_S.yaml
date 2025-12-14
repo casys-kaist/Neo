@@ -1,0 +1,19 @@
+DRAM:
+  Config: /workspace/src/simulator/neo/config/dram/LPDDR4-4CH.cfg
+  Clock: 1600 # MHz
+  CacheLine: 64 # Byte
+
+CORE:
+  Clock: 1000 # MHz
+
+OTHER:
+  Trace: /mnt/output/trace/1
+  GlobalSorter: 8
+  GlobalChunkSize: 256
+  AdaptiveSorter: 8
+  AdaptiveChunkSize: 256
+  SortGranularity: 16
+  Renderer: 4
+  RenderChunkSize: 256
+  CacheSize: 0
+  TileSize: 64
